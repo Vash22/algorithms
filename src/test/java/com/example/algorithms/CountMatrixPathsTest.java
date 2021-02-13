@@ -14,13 +14,18 @@ class CountMatrixPathsTest {
 	@Test
 	public void checkRecursively() {
 		// given
-		int[][] matrix = { { 1, 0, 1 }, { 1, 1, 1 }, { 1, 1, 1 } };
+		// @formatter:off
+		int[][] matrix = {
+				{ 1, 0, 1, 1 },
+				{ 1, 1, 1 ,1 },
+				{ 1, 1, 1 ,1 }};
+		// @formatter:on
 
 		// when
 		int amountOfPaths = countMatrixPathsRec(matrix, 0, 0);
 
 		// then
-		assertThat(amountOfPaths).isEqualTo(6);
+		assertThat(amountOfPaths).isEqualTo(4);
 	}
 
 	@Test
