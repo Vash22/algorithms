@@ -9,12 +9,15 @@ class TwoSubstringsTest {
 
 	@Test
 	void twoStrings() {
+		//given
 		String first = "hello";
 		String second = "world";
 
+		// when
 		TwoSubstrings twoSubstrings = new TwoSubstrings();
 		String answer = twoSubstrings.twoStrings(first, second);
 
+		// when
 		assertThat(answer).isEqualTo("Yes");
 	}
 }
