@@ -1,6 +1,8 @@
-package com.example.algorithms;
+package com.example.algorithms.arrays;
 
 import org.junit.jupiter.api.Test;
+
+import com.example.algorithms.arrays.JumpingOnTheClouds;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

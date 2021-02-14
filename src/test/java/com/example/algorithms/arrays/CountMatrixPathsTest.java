@@ -1,11 +1,11 @@
-package com.example.algorithms;
+package com.example.algorithms.arrays;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static com.example.algorithms.CountMatrixPaths.countMatrixPathsDynamicProgramming;
-import static com.example.algorithms.CountMatrixPaths.countMatrixPathsRec;
+import static com.example.algorithms.arrays.CountMatrixPaths.countMatrixPathsDynamicProgramming;
+import static com.example.algorithms.arrays.CountMatrixPaths.countMatrixPathsRec;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @ExtendWith(MockitoExtension.class)
