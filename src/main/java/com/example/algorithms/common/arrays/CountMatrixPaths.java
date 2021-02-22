@@ -1,4 +1,4 @@
-package com.example.algorithms.common;
+package com.example.algorithms.common.arrays;
 
 public class CountMatrixPaths {
 
